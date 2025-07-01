@@ -1,0 +1,18 @@
+{
+  "name": "demo-cloudless",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A demo of using Taskless without Taskless Cloud Services",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "TASKLESS_ENV=.env.sample node --import=@taskless/loader ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Taskless, Inc",
+  "license": "MIT",
+  "dependencies": {
+    "@taskless/loader": "^0.0.33"
+  }
+}
