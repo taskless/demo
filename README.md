@@ -8,7 +8,8 @@ This demo can be checked out via `git clone`, and running `pnpm install` will in
 
 This demo makes use of the `@taskless/loader` package, and will work with any packs you install into the repository. We recommend the following:
 
-1. `pnpx @taskless/pack install https://github.com/taskless/pack-pii/releases/download/v0.0.3/pii.tgz` this pack reports on PII data in your outbound API calls, and is useful for identifying sensitive data that may be sent to third-party APIs without your knowledge
+1. `pnpx @taskless/pack install https://github.com/taskless/pack-pii/releases/download/v0.0.5/pack.tgz` this pack reports on PII data in your outbound API calls, and is useful for identifying sensitive data that may be sent to third-party APIs without your knowledge
+2. `pnpx @taskless/pack install https://github.com/taskless/pack-core/releases/download/v0.0.7/pack.tgz` this pack adds core telemetry functions such response codes, durations, and basic error capturing
 
 Alternatively, you can install any other Taskless pack that you want to use in your application either from [Taskless Cloud](https://www.taskless.io) or from a tgz file.
 
